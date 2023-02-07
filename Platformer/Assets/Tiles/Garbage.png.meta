@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4dc1856c9a4473143a02c6844e775130
+guid: 5ac952e6c87d2f643b7d729445a9001a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -166,10 +166,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bear_Final_0
+      name: Garbage_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 191
         width: 32
         height: 32
@@ -180,17 +180,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7e81fd7f88a574d9da9317698eb5c4
-      internalID: -1560109093
+      spriteID: d8c85b5671e4c5d48a8f404519df2e35
+      internalID: 2072321575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_Final_1
+      name: Garbage_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 40
         y: 191
         width: 32
         height: 32
@@ -201,17 +201,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41d4082a3e2d454fb115974d7ee07c1
-      internalID: 1193606421
+      spriteID: 9c73e57a8443f5a4ebf90f2a14feb6bc
+      internalID: 784237690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_Final_2
+      name: Garbage_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 77
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72a70c613a2de241a5f49ac21531a8e
+      internalID: -787133779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c05d677fc174d4eb1489f1c55b1f71
+      internalID: 2137842884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_4
+      rect:
+        serializedVersion: 2
+        x: 3
         y: 154
         width: 32
         height: 32
@@ -222,17 +264,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b02efdb8f1dad9c46adfdc0dc2ddd661
-      internalID: -182834990
+      spriteID: bb8d3e73a5868b04587ecaf157570cdf
+      internalID: -1056485535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bear_Final_3
+      name: Garbage_5
       rect:
         serializedVersion: 2
-        x: 37
+        x: 40
         y: 154
         width: 32
         height: 32
@@ -243,92 +285,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3ae885e046c06046bae4ec176cad71d
-      internalID: 1365974896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_Final_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 117
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91f4cd5c369a74847a8940109366743f
-      internalID: 26679948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_Final_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 117
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b47f90b5f9af0de4ca0a272d258bbc7d
-      internalID: 1897405534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_Final_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 117
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df13439f3f42c4f40824b2f492ba4cd5
-      internalID: 512825747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_Final_7
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 117
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5aed6dc91440e60489dc706145dba8b4
-      internalID: 1167865868
+      spriteID: 8445a919d820ab5428fe589ae3d9e305
+      internalID: 1391130681
       vertices: []
       indices: 
       edges: []
@@ -344,14 +302,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bear_Final_4: 26679948
-      bear_Final_1: 1193606421
-      bear_Final_3: 1365974896
-      bear_Final_6: 512825747
-      bear_Final_0: -1560109093
-      bear_Final_5: 1897405534
-      bear_Final_7: 1167865868
-      bear_Final_2: -182834990
+      Garbage_0: 2072321575
+      Garbage_3: 2137842884
+      Garbage_1: 784237690
+      Garbage_2: -787133779
+      Garbage_4: -1056485535
+      Garbage_5: 1391130681
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

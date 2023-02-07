@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 626333977287349203}
   - component: {fileID: 416327152610469835}
   - component: {fileID: -4627552222363033055}
-  m_Layer: 0
+  - component: {fileID: 1600743094}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &626333977287349200
 Animator:
@@ -94,9 +95,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -358926783
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 181901078, guid: 3b722e08494f2464ea1e9e4ce246c1b9, type: 3}
+  m_Sprite: {fileID: 1897405534, guid: 4dc1856c9a4473143a02c6844e775130, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,6 +142,21 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07167959, y: -0.026064873}
-  m_Size: {x: 0.5829611, y: 1.0521297}
+  m_Offset: {x: -0.012652874, y: 0.041394472}
+  m_Size: {x: 0.5492315, y: 0.91721106}
   m_Direction: 0
+--- !u!114 &1600743094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626333977287349202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0845dfcb361658e4fb9e4016c2c075f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 4.5
+  jumpSpeed: 10
+  climbSpeed: 5

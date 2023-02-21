@@ -18,7 +18,13 @@ public class Player : MonoBehaviour
     [Tooltip("Change this value to change the climb speed")]
     [SerializeField] float climbSpeed = 5.0f;
 
-    private float gravityScaleAtStart; 
+    private float gravityScaleAtStart;
+
+    private bool isAlive = true;
+
+    [SerializeField] Vector2 deathSeq = new Vector2(25f, 25f);
+
+    [SerializeField] AudioClip threadPickSFX; 
 
     // Start is called before the first frame update
     void Start()
@@ -35,10 +41,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isAlive)
+        {
+            return;
+        }
+
         Run();
         FlipSprite();
         Jump();
         Climb();
+        Die();
     }
 
     private void Run ()
@@ -113,5 +125,15 @@ public class Player : MonoBehaviour
         bool vSpeed = Mathf.Abs(playerCharacter.velocity.y) > Mathf.Epsilon;
 
         playerAnimator.SetBool("Climb", vSpeed);
+    }
+
+    private void Die()
+    {
+        if(playerBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
+        {
+            isAlive = false;
+            playerAnimator.SetTrigger("die");
+            playerCharacter.velocity = deathSeq;
+        }
     }
 }

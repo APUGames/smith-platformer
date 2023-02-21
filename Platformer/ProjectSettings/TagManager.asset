@@ -17,8 +17,8 @@ TagManager:
   - Background
   - Assets
   - Enemy
-  - 
-  - 
+  - Hazards
+  - Pickups
   - 
   - 
   - 
@@ -49,6 +49,12 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2534028601
+    locked: 0
+  - name: Hazards
+    uniqueID: 3171788049
+    locked: 0
+  - name: Pickups
+    uniqueID: 1345754235
     locked: 0
   - name: Enemies
     uniqueID: 3306727661

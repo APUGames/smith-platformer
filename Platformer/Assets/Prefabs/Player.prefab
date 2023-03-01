@@ -144,8 +144,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01654911, y: 0.041394472}
-  m_Size: {x: 0.557024, y: 0.91721106}
+  m_Offset: {x: -0.028186798, y: 0.016002655}
+  m_Size: {x: 0.48296356, y: 0.7606287}
   m_Direction: 0
 --- !u!114 &1600743094
 MonoBehaviour:
@@ -162,6 +162,7 @@ MonoBehaviour:
   runSpeed: 4.5
   jumpSpeed: 10
   climbSpeed: 5
+  enemy: {fileID: 1787534517648830475, guid: fce7b51e9bf8df34fa890ba99015db7a, type: 3}
   deathSeq: {x: 15, y: 15}
 --- !u!61 &7703853300505230759
 BoxCollider2D:

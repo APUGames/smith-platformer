@@ -7,6 +7,9 @@ public class Enemy : MonoBehaviour
     Rigidbody2D enemyCharacter;
 
     [SerializeField] float moveSpeed = 1.0f;
+
+    [SerializeField] BoxCollider2D playerFeet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,5 +36,15 @@ public class Enemy : MonoBehaviour
     bool isFacingRight()
     {
         return transform.localScale.x > 0;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision == playerFeet)
+        {
+            Destroy(gameObject);
+        }
+        
+
     }
 }

@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/L0 Start.unity
+    guid: ae6249b727edd9443997fad863b2f9c5
+  - enabled: 1
+    path: Assets/Scenes/L0.5 Cutscene.unity
+    guid: 78fa6e12e07dafe448993af72cb48123
+  - enabled: 1
     path: Assets/Scenes/L1 Garbage.unity
     guid: 119afffd67d0b2d4ba91129bb31eb6fa
+  - enabled: 1
+    path: Assets/Scenes/L1.5  Cutscene.unity
+    guid: f5298baf8527fcd4d858907819f9bd79
   - enabled: 1
     path: Assets/Scenes/L2 Pink.unity
     guid: 5a4f8d1366b16d24d92322f7ea81e363
@@ -17,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L4 Yellow.unity
     guid: 09d18eb3f685a6647978929a555e4cd1
+  - enabled: 1
+    path: Assets/Scenes/L6 End.unity
+    guid: 25b9b06da3a193c40bae84f45a55acfd
   m_configObjects: {}

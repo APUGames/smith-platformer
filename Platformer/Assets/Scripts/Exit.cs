@@ -9,9 +9,13 @@ public class Exit : MonoBehaviour
 
     [SerializeField] float slowMoFactor = 0.2f;
 
+    [SerializeField] AudioClip exitSFX;
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         StartCoroutine(LoadNextLevel());
+        AudioSource.PlayClipAtPoint(exitSFX, Camera.main.transform.position);
     }
 
     IEnumerator LoadNextLevel()

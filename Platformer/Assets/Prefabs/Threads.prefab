@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5306667179099196526
 SpriteRenderer:
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bcb1f3beac8bfe438a9c8ee61110988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threadPickupSFX: {fileID: 8300000, guid: 7e17fce5eb2263948945de305f8509b5, type: 3}
+  threadPickupSFX: {fileID: 8300000, guid: bfed31311c5ab9a4dac2303054c95c98, type: 3}
 --- !u!82 &2043564674
 AudioSource:
   m_ObjectHideFlags: 0

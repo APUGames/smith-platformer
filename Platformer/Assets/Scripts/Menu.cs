@@ -15,6 +15,17 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(0); //The Scene after Scene 0 
     }
+
+    public void ContinueGame()
+    {
+        SceneManager.LoadScene(2); //story cutscene
+    }
+
+    public void Collectibles()
+    {
+        SceneManager.LoadScene(4); //Collectibles cutscene
+    }
+
     public void Quit()
     {
         Application.Quit();

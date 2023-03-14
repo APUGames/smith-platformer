@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bcb1f3beac8bfe438a9c8ee61110988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerBodyCollider: {fileID: -4627552222363033055, guid: 4dcff86f6696a084389b61dc1dbefcde, type: 3}
+  threadValue: 1
   threadPickupSFX: {fileID: 8300000, guid: bfed31311c5ab9a4dac2303054c95c98, type: 3}
 --- !u!82 &2043564674
 AudioSource:

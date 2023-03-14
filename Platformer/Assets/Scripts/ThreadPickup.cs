@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class ThreadPickup : MonoBehaviour
 {
-
+    [SerializeField] CapsuleCollider2D playerBodyCollider;
+    [SerializeField] int threadValue = 1;
     [SerializeField] AudioClip threadPickupSFX;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        AudioSource.PlayClipAtPoint(threadPickupSFX, Camera.main.transform.position);
-        Destroy(gameObject);
-        
+        if (collision == playerBodyCollider)
+        {
+            FindObjectOfType<GameSession>().ProcessPlayerThread(threadValue);
+
+            AudioSource.PlayClipAtPoint(threadPickupSFX, Camera.main.transform.position);
+            Destroy(gameObject);
+        }
     }
+
+
     // Start is called before the first frame update
     void Start()
     {

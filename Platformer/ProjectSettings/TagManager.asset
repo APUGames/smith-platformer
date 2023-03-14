@@ -19,7 +19,7 @@ TagManager:
   - Enemy
   - Hazards
   - Pickups
-  - 
+  - Water
   - 
   - 
   - 
@@ -47,11 +47,14 @@ TagManager:
   - name: Climbing
     uniqueID: 2322448241
     locked: 0
+  - name: Hazards
+    uniqueID: 3171788049
+    locked: 0
   - name: Foreground
     uniqueID: 2534028601
     locked: 0
-  - name: Hazards
-    uniqueID: 3171788049
+  - name: Water
+    uniqueID: 3624320561
     locked: 0
   - name: Pickups
     uniqueID: 1345754235
